@@ -1,0 +1,138 @@
+body {
+  font-size: 2.93333vw;
+}
+a {
+  font-size: 2.93333vw;
+}
+/* 1.0 头部 */
+.header {
+  display: flex;
+  height: 11.2vw;
+  padding: 2vw 0;
+}
+.logo {
+  width: 21.33333vw;
+  background: url(../images/logo.png) no-repeat center;
+  background-size: 80%;
+  font-size: 0;
+}
+.search-box {
+  position: relative;
+  display: flex;
+  flex: 1;
+}
+.search {
+  flex: 1;
+  border-radius: 6.93333vw;
+  background-color: #f0f0f0;
+  padding-left: 9.33333vw;
+  padding-right: 2vw;
+  font-size: inherit;
+}
+.search-box .icon-search {
+  position: absolute;
+  left: 2.66667vw;
+  top: 2.13333vw;
+  color: #798089;
+}
+.user-pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 11.2vw;
+}
+.user-pic img {
+  height: 100%;
+}
+/* 2.0 焦点图 */
+.banner {
+  height: 53.33333vw;
+  background: url(../upload/banner.jpg) no-repeat center/cover;
+}
+/* 3.0 导航 */
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 2.66667vw;
+}
+.nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 17.33333vw;
+  height: 21.86667vw;
+  padding-top: 1.33333vw;
+}
+.nav-item img {
+  width: 80%;
+}
+/* 4.0精选攻略 */
+.choiceness {
+  padding: 0 3.33333vw;
+}
+/* 4.1 精选攻略-头部 */
+.choiceness-head {
+  display: flex;
+  align-items: center;
+  height: 11.46667vw;
+}
+.choiceness-head h2 {
+  flex: 1;
+  font-size: 5.06667vw;
+}
+.safety-tips {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 32.66667vw;
+  height: 6.66667vw;
+  background-color: #02db94;
+  border-radius: 3.2vw;
+  padding: 0 1.06667vw;
+  color: #fff;
+}
+
+/* 4.2 精选攻略-主体 */
+.choiceness-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.choiceness-body-item {
+  width: 44.26667vw;
+  height: 58.4vw;
+  border-radius: 1.33333vw;
+  margin-bottom: 6.13333vw;
+}
+.choiceness-body-item img {
+  width: 100%;
+  border-radius: 1.33333vw;
+}
+.choiceness-body-item h3 {
+  line-height: 1.2;
+  margin-bottom: 1.06667vw;
+  font-weight: bold;
+  color: #000;
+  /* 多行文本溢出省略号显示 */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.choiceness-body-item div {
+  display: flex;
+}
+.choiceness-body-item div p {
+  flex: 1;
+}
+.choiceness-body-item div span {
+  display: flex;
+  align-items: center;
+  margin-right: 1.33333vw;
+  color: #000;
+}
+.choiceness-body-item div span i {
+  margin-right: 1.06667vw;
+}
